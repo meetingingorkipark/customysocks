@@ -1,10 +1,10 @@
 head::before, head::after,
 body::before, body::after {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
-  width: 3em;
-  height: 3em;
+  width: 100%;
+  height: 100%;
   content: "V";
   mix-blend-mode: screen;
   animation: 44s -27s move infinite ease-in-out alternate;
