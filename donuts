@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Open Sans';
+}
+.header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #ff5f5f;
+  overflow: hidden;
+}
+.header__text {
+  height: 100%;
+  text-align: center;
+  z-index: 2;
+  color: #460b0b;
+  font-size: 80px;
+  font-weight: 900;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+}
+.header__donuts {
+  width: 100%;
+  bottom: 160px;
+  right: 130px;
+  position: relative;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.donut {
+  animation-name: float;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin: 0 auto;
+  width: 300px;
+  height: 336px;
+  background: url("https://image.ibb.co/c2S2U6/donut.png") center 100%/100% no-repeat;
+}
+.donut:nth-child(1) {
+  animation-delay: 0.12s;
+}
+.donut:nth-child(2) {
+  animation-delay: 0.24s;
+}
+.donut:nth-child(3) {
+  animation-delay: 0.36s;
+}
+.donut:nth-child(4) {
+  animation-delay: 0.48s;
+}
+.donut:nth-child(5) {
+  animation-delay: 0.6s;
+}
+.donut:nth-child(6) {
+  animation-delay: 0.72s;
+}
+.donut:nth-child(7) {
+  animation-delay: 0.84s;
+}
+.donut:nth-child(8) {
+  animation-delay: 0.96s;
+}
+.donut:nth-child(9) {
+  animation-delay: 1.08s;
+}
+.donut:nth-child(10) {
+  animation-delay: 1.2s;
+}
+.donut:nth-child(11) {
+  animation-delay: 1.32s;
+}
+.donut:nth-child(12) {
+  animation-delay: 1.44s;
+}
+.donut--pink {
+  animation-duration: 4s;
+  background: url("https://image.ibb.co/fgK2wm/donut2.png") center 100%/100% no-repeat;
+}
+@-moz-keyframes float {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@-webkit-keyframes float {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@-o-keyframes float {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes float {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
