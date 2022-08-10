@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
-body {
-  margin: 0;
-  background: #fff;
-  font-family: 'Open Sans';
-}
+
 .header {
   position: relative;
   width: 100vw;
