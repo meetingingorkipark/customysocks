@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
 
 .header {
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   background: #ff5f5f;
